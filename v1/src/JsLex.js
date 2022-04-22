@@ -40,8 +40,8 @@ function JsLex(input){
       }
     
     return {
-      type:new condi().name,
-      value: lexeme
+      type:new condi(peek()).name,
+      lexeme
       };
     }
   
@@ -74,7 +74,7 @@ function JsLex(input){
   //addRules
   //require 1 parameter which must be a function
   function addRules(func){
-    //chck func
+    //check func
     if(func instanceof Function){
       rules.push(func);
       return;
