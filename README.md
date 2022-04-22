@@ -31,7 +31,10 @@ call the lex() method on the jsLex object to get the tokenize tokens
 ```javascript
 console.log(jsLex.lex());
 //output:
-//abc
+{
+  type: "IDENTIFIER",
+  lexeme: abc
+  }
 ```
 
 
