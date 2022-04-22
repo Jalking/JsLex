@@ -1,7 +1,7 @@
 # JsLex
 A lexical analyzer tool
 
-##test
+## test
 first:
 import JsLex to the js file you intend to use and initialize it
 
